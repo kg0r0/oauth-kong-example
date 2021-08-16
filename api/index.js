@@ -1,7 +1,5 @@
-const fs = require('fs')
-const SSL_KEY = fs.readFileSync('./certificate/key.pem')
-const SSL_CERT = fs.readFileSync('./certificate/cert.pem')
-const https = require('https')
+//const fs = require('fs')
+//const SSL_KEY = fs.readFileSync('./certificate/key.pem')
 const port = 3000
 
 const express = require('express')
@@ -23,8 +21,7 @@ app.get('/stepcounts', (req, res, next) => {
   res.send(data[user] || [])
 })
 
-const server = https.createServer({ key: SSL_KEY, cert: SSL_CERT }, app)
-server.listen(port, () => {
-  console.log(`Server is listening on https://localhost:${port}`
+app.listen(port, () => {
+  console.log(`Server is listening on http://localhost:${port}`
   )
 })
