@@ -19,8 +19,6 @@ services:
   api:
     build: ./api
     # This is a demo setting.
-    ports:
-      - 3000:3000
     networks:
       - kong-net
   kong-migrations:
