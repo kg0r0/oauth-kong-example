@@ -1,5 +1,13 @@
 # oauth-kong-example
 
+## Usage
+
+```
+$ git clone https://github.com/kg0r0/oauth-kong-example.git
+$ cd oauth-kong-example
+$ docker-compose up -d 
+```
+
 ##  Put Your API Server Behind Kong Gateway
 
 ### Add Service to Kong
