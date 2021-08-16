@@ -1,5 +1,7 @@
 # oauth-kong-example
 
+![image](https://user-images.githubusercontent.com/33596117/129629494-c388393c-c46b-4116-a8bf-9eb82ba1111b.png)
+
 ## Usage
 
 ```
