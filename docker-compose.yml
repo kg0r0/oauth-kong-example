@@ -18,7 +18,6 @@ networks:
 services:
   api:
     build: ./api
-    # This is a demo setting.
     networks:
       - kong-net
   kong-migrations:

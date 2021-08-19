@@ -1,5 +1,3 @@
-//const fs = require('fs')
-//const SSL_KEY = fs.readFileSync('./certificate/key.pem')
 const port = 3000
 
 const express = require('express')
